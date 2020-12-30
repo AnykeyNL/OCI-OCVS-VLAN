@@ -7,11 +7,11 @@ Important; Make sure you already have setup the OCI-CLI with the correct credent
 
 This script will create VLANs and attaches them to all ESXi hosts in an SDDC.
 
-###Usage:
+### Usage:
 
 pyhton create-vlans.py -s SDDC_OCID -f VLAN_FILE
 
-###Example:
+### Example:
 
 python create-vlans.py -s ocid1.vmwaresddc.oc1.eu-frankfurt-1.xxxxxxxxxxxxxx -f vlans 
 
